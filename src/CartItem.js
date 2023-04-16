@@ -21,7 +21,7 @@ const CartItem = ({id, img, title, price, amount}) => {
         </div>
         <div className='col-sm-2' margin>
             <h5>{title}</h5>
-            <h5 style={{color: "#617d98"}}>{price}</h5>
+            <h5 style={{color: "#617d98"}}>${price}</h5>
             <MDBIcon
             fas
             icon="trash"
